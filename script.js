@@ -1,6 +1,7 @@
 // Banco de dados local simulado com informações de filmes
 const moviesData = [
   { 
+    
     title: 'Um Sonho de Liberdade', 
     director: 'Frank Darabont', 
     year: 1994, 
@@ -17,6 +18,42 @@ const moviesData = [
     link: 'https://pt.wikipedia.org/wiki/The_Godfather',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/pt/d/de/Godfather_1972.jpg',
     synopsis: 'A história da família Corleone, um dos clãs mafiosos mais poderosos dos EUA, e a luta de Michael Corleone para se tornar o novo Don.'
+  },
+  { 
+    title: 'Clube da Luta', 
+    director: 'David Fincher', 
+    year: 1999, 
+    genre: 'Drama', 
+    link: 'https://pt.wikipedia.org/wiki/Fight_Club',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/pt/2/2b/FightClubPoster.jpg',
+    synopsis: 'Um homem insatisfeito com sua vida, cria um clube de luta secreto onde homens podem descontar sua frustração e raiva. Através desse clube, ele busca um sentido para sua existência, mas acaba se envolvendo em uma trama complexa e violenta.'
+  },
+  { 
+    title: 'Batman: O Cavaleiro das Trevas', 
+    director: 'Christopher Nolan', 
+    year: 2008, 
+    genre: 'Ação, Crime, Drama', 
+    link: 'https://pt.wikipedia.org/wiki/The_Dark_Knight',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/pt/d/d1/The_Dark_Knight.jpg',
+    synopsis: 'Um homem-morcego, um promotor público e um anarquista se enfrentam em uma batalha épica por Gotham City. Batman, com a ajuda do promotor Harvey Dent, tenta limpar a cidade da corrupção. No entanto, o Coringa, um psicopata brilhante e caótico, surge para testar os limites de ambos e mergulhar Gotham em um caos sem precedentes.',        
+  },
+  { 
+    title: 'Pulp Fiction: Tempo de Violência', 
+    director: 'Quentin Tarantino', 
+    year: 1994, 
+    genre: 'Crime, Drama', 
+    link: 'https://pt.wikipedia.org/wiki/Pulp_Fiction',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/pt/8/82/Pulp_Fiction_cover.jpg',
+    synopsis:'Várias histórias interligadas se desenrolam em um submundo de crime em Los Angeles. Assassinos, boxeadores e mafiosos se cruzam em narrativas não lineares, repletas de diálogos afiados, violência gráfica e um humor peculiar.'
+  },
+    { 
+    title: 'A Origem', 
+    director: 'Christopher Nolan', 
+    year: 2010, 
+    genre: 'Ação, Aventura, Ficção Científica', 
+    link: 'https://pt.wikipedia.org/wiki/Inception',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/pt/8/84/AOrigemPoster.jpg',
+      synopsis:'Um ladrão especializado em roubar ideias penetra nos sonhos alheios para extrair seus segredos mais profundos. Dom Cobb e sua equipe embarcam em uma missão impossível: implantar uma ideia na mente de um empresário, alterando assim o curso de sua vida. Para isso, eles precisam adentrar o subconsciente do alvo, enfrentando perigos e desafios inimagináveis no mundo dos sonhos.'
   },
   // ... outros filmes
 ];
