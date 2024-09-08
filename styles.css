@@ -67,7 +67,6 @@ header::before {
 }
 
 .search-section {
-  margin-top:150px;
   background-color: #ffffff;
   padding: 40px;
   border-radius: 12px;
@@ -76,7 +75,6 @@ header::before {
 }
 
 .search-bar {
-  margin-top:150px;
   width: 100%;
   padding: 15px;
   border: 1px solid #cccccc;
