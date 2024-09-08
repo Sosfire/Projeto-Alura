@@ -61,13 +61,13 @@ header::before {
 }
 
 .container {
+  margin-top:150px,
   width: 90%;
   max-width: 1000px;
   margin: 20px auto;
 }
 
 .search-section {
-  margin-top:150px,
   background-color: #ffffff;
   padding: 40px;
   border-radius: 12px;
