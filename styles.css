@@ -43,6 +43,22 @@ header::before {
   font-size: 20px;
   margin-top: 10px;
 }
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  color: #ff6f61;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff9a8b;
+  color: #ffffff;
+}
 
 .container {
   width: 90%;
@@ -211,4 +227,27 @@ header::before {
 
 .close-btn:hover {
   color: #ff9a8b;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #ff9a8b;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
