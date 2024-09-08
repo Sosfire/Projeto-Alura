@@ -231,12 +231,13 @@ header::before {
 
 /* Footer */
 .footer {
+  position: bottom;
   background-color: #333;
   color: #fff;
   alling:bottom;
   text-align: center;
   padding: 20px 0;
-  margin-top: 50px;
+  margin-top: bottom;
 }
 
 .footer p {
